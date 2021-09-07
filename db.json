@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Product-2",
+      "price": 12,
+      "description": "Some information about product",
+      "quantity": 13
+    },
+    {
+      "id": 3,
+      "name": "Product-333",
+      "price": 43444,
+      "description": "Some information about product",
+      "quantity": 21
+    },
+    {
+      "id": 4,
+      "name": "Product-4",
+      "price": 10,
+      "description": "Some information about product",
+      "quantity": 6
+    },
+    {
+      "id": 6,
+      "name": "Product-6444",
+      "price": 4,
+      "description": "Some information about product",
+      "quantity": 5
+    }
+  ]
+}
