@@ -6,17 +6,14 @@ import { StoreModule } from "@ngrx/store";
 import { EffectsModule } from "@ngrx/effects";
 import { ProductEffects } from "./state/product.effects";
 import { reducer } from "./state/product.reducer";
-import { ProductListComponent } from "./product-list/product-list.component";
 import { ProductAddComponent } from './product-add/product-add.component';
-import { ProductEditDialogComponent } from './product-edit-dialog/product-edit-dialog.component';
+
 import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     ProductRoutingModule.components,
-    ProductListComponent,
     ProductAddComponent,
-    ProductEditDialogComponent,
     ProductComponent
   ],
   imports: [
